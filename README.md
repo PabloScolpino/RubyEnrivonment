@@ -11,7 +11,8 @@ A vagrant file tailored to get started with ruby development with minimum manual
 * Install [cygwin](https://www.cygwin.com/)
 
 * Install packages in cygwin
-  * bash git
+  * bash
+  * git
 
 * Install apt-cyg
   * lynx -source rawgit.com/transcode-open/apt-cyg/master/apt-cyg > apt-cyg
@@ -20,8 +21,6 @@ A vagrant file tailored to get started with ruby development with minimum manual
 * Install [Vagrant](https://www.vagrantup.com/downloads.html)
 
 * Install [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
-
-* Install git
 
 * Clone this repository
   * git clone https://github.com/PabloScolpino/RubyEnrivonment.git
