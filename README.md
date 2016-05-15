@@ -13,6 +13,7 @@ A vagrant file tailored to get started with ruby development with minimum manual
 * Install packages in cygwin
   * bash
   * git
+  * rsync
 
 * Install apt-cyg
   * lynx -source rawgit.com/transcode-open/apt-cyg/master/apt-cyg > apt-cyg
@@ -27,3 +28,4 @@ A vagrant file tailored to get started with ruby development with minimum manual
 
 * Launch the machine
   * vagrant up
+  * If you experience an error during machine creation check out [this vagarnt bug](https://github.com/mitchellh/vagrant/issues/6702)
