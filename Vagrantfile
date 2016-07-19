@@ -4,7 +4,7 @@ $script_ruby = <<-SHELL
   if ! type rvm >/dev/null 2>&1; then
     curl -sSL https://rvm.io/mpapis.asc | gpg --import -
     curl -L https://get.rvm.io | bash -s stable
-    source /etc/profile.d/rvm.sh
+    source /home/vagrant/.rvm/scripts/rvm
   fi
 
   if ! rvm list rubies ruby | grep ruby-${RUBY_VERSION}; then
