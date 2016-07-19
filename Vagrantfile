@@ -32,7 +32,7 @@ $script_system = <<-SHELL
   sudo apt-get install redis-server -y
 
   # Tools
-  sudo apt-get install zip -y
+  sudo apt-get install zip curl git -y
 
 SHELL
 
