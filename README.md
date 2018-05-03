@@ -8,7 +8,7 @@ A vagrant file tailored to get started with ruby development with minimum manual
 
 # On Windows
 
-* Install [cygwin](https://www.cygwin.com/)
+* Install [cygwin](https://www.cygwin.com/) (Consider using [Babun](http://babun.github.io/) )
 
 * Install packages in cygwin
   * bash
